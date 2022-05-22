@@ -1,0 +1,6 @@
+
+
+game.Players.LocalPlayer:GetMouse().KeyDown:connect(function (k)
+	if k == Bind then
+		print("hi")	
+end)
